@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+}
+#generisi {
+  border-radius: 8px;
+  background-color:  #282c34;
+  font-size: 9px;
+  color: white;
+  width : 15vw;
+  float : right;
+  margin-right : 5vw;
+  margin-top : 3vw;
+  border: 1px solid black; 
+}
+#pon, #uto, #sri, #cet, #pet{
+  border-radius: 8px;
+  background-color:  #282c34;
+  float : left;
+  min-height: 15vh;
+  margin-left: 4vw;
+  margin-top: 25vh;
+  width : 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+  border : 1px solid, black;
+}
+.App-edit {
+  border: 1px solid black; 
+  border-radius: 4px;
+  background-color: darkcyan;
+  min-height: 2vh;
+  float: left;
+  width: 10vw;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  justify-content: center;
+  font-size: 7px;
+  color: white;
+}
+.App-ponisti {
+  border: 1px solid black; 
+  border-radius: 4px;
+  background-color: grey;
+  min-height: 2vh;
+  float: left;
+  width: 10vw;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1vh;
+  justify-content: center;
+  font-size: 7px;
+  color: white;
+}
+#b1{
+  margin-left: 6.5vw;
+}
+#b2, #b3, #b4, #b5{
+  margin-left: 9vw;
+}
+#b6{
+  margin-left: 6.5vw;
+}
+#b7, #b8, #b9, #b10{
+  margin-left: 9vw;
+}

@@ -1,0 +1,13 @@
+.mini-card {
+    width: 25%!important;
+    height: 100%!important;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: white;
+}
+
+.white {
+    color: gray;
+}

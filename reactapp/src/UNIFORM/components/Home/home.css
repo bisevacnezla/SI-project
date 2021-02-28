@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+  }
+  .NavPadding{
+    background-color: #282c34;
+    text-align: center;
+    color: white;
+  }
+  #rasporedStudent , #rasporedProfesor, #rasporedSaleZaStudenta,#rasporedSaleZaProfesora,#grupeStudent,#grupeProfesor
+  {
+    background-color: darkcyan;
+    min-width: 45vh;
+    min-height: 8vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: darkcyan;
+  }  

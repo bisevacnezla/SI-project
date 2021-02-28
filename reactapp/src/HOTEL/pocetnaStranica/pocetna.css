@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+    height: calc(100vh - 80px);
+  }
+  /*.NavPadding{
+    background-color: #282c34;
+    align: center;
+    color: white;
+  }*/
+  #kreiranje, #popunjavanje, #mojeAnkete, #javneAnkete, #rezultati{
+  }  

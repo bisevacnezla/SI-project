@@ -1,0 +1,12 @@
+.Dan {
+  float: left;
+  height: 200px;
+  width: 170px;
+  margin: 10px;
+  padding: 3px 15px 10px 15px;
+  background-color: BurlyWood;
+}
+
+p {
+  line-height: 10px;
+}

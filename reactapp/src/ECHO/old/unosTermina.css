@@ -1,0 +1,14 @@
+.form-group {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) perspective(1px);
+  width: 50%;
+  height: 50%;
+}
+
+.btn-primary {
+  width: 30%;
+  position: absolute;
+  right: 0%;
+}

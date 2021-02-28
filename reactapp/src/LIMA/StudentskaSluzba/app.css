@@ -1,0 +1,55 @@
+.LIMA-btn-red{
+    color:#212529;
+    background-color:#ffdada !important;
+    border-color:#ffdada
+}
+.LIMA-btn-red:hover{
+    color:#212529;
+    background-color:#ffc6c6 !important;
+    border-color:#fdc6c6
+}
+.LIMA-btn-red.focus,.LIMA-btn-red:focus{
+    box-shadow:0 0 0 .2rem rgba(216,217,219,.5)
+}
+.LIMA-btn-red.disabled,.LIMA-btn-red:disabled{
+    color:#212529;
+    background-color:#f8f9fa;
+    border-color:#f8f9fa
+}
+.LIMA-btn-red:not(:disabled):not(.disabled).active,.LIMA-btn-red:not(:disabled):not(.disabled):active,.show>.LIMA-btn-red.dropdown-toggle{
+    color:#212529;
+    background-color:#dae0e5;
+    border-color:#d3d9df
+}
+.LIMA-btn-red:not(:disabled):not(.disabled).active:focus,.LIMA-btn-red:not(:disabled):not(.disabled):active:focus,.show>.LIMA-btn-red.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem rgba(216,217,219,.5)
+}
+
+
+.LIMA-btn-green{
+    color:#212529;
+    background-color:#dbffda !important;
+    border-color:#dbffda
+}
+.LIMA-btn-green:hover{
+    color:#212529;
+    background-color:#cbffc6 !important;
+    border-color:#cbffc6
+}
+.LIMA-btn-green.focus,.LIMA-btn-green:focus{
+    box-shadow:0 0 0 .2rem rgba(216,217,219,.5)
+}
+.LIMA-btn-green.disabled,.LIMA-btn-green:disabled{
+    color:#212529;
+    background-color:#f8f9fa;
+    border-color:#f8f9fa
+}
+.LIMA-btn-green:not(:disabled):not(.disabled).active,.LIMA-btn-green:not(:disabled):not(.disabled):active,.show>.LIMA-btn-green.dropdown-toggle{
+    color:#212529;
+    background-color:#dae0e5;
+    border-color:#d3d9df
+}
+.LIMA-btn-green:not(:disabled):not(.disabled).active:focus,.LIMA-btn-green:not(:disabled):not(.disabled):active:focus,.show>.LIMA-btn-green.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem rgba(216,217,219,.5)
+}
+

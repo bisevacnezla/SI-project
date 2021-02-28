@@ -1,0 +1,71 @@
+.juliet-chat-app-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+}
+
+.juliet-list-wrapper {
+    width: 20%;
+    border-right: 1px solid #fff;
+    padding: 0 8px 0 10px;
+    /*background: #fcfcfc;*/
+}
+
+.juliet-right-wrapper {
+    border-right: none;
+    border-left: 1px solid #fff;
+    overflow-y: scroll;
+    padding-right: 2px;
+}
+
+.Juliet-App ::-webkit-scrollbar {
+    width: 0.66rem;
+    padding-right: 3px;
+    background: transparent;
+}
+  
+  /* Track */
+.Juliet-App ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 5px;
+}
+   
+  /* Handle */
+.Juliet-App  ::-webkit-scrollbar-thumb {
+    background: #fff    ; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+/* .Juliet-App  ::-webkit-scrollbar-thumb:hover {
+    background: #212529; 
+  } */
+
+.juliet-msg-wrapper {
+    width: 60%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.juliet-msg-wrapper .juliet-container {
+    height: calc(100% - 20px);
+    padding: 0px;
+}
+
+.juliet-input-all {
+    padding: 0 10px;
+    height: 15%;
+    /* border-top: 1px solid rgb(0,0,0,0.2); */
+    background: white;
+}
+
+.juliet-input-all > * {
+    background: white;
+    overflow: hidden;
+}
+
+.juliet-messages {
+    height: 85%;
+}

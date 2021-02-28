@@ -1,0 +1,55 @@
+.juliet-time-div{
+  /* border: 1px solid #2C3E50; */
+  border-radius: 5%;
+  text-align: center;
+  width: 25%
+}
+
+.juliet-actions {
+  margin-bottom: -1rem;
+}
+
+.juliet-pretraga-text {
+  width: 40%; 
+  height: 50px;
+  border-radius: 0.5em;
+  font-size: 14px;
+  float: right;
+  margin: 5px 20px 10px 10px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid rgba(134,134,134,.7);
+  text-overflow: ellipsis;
+}
+
+.juliet-message-header {
+  height: 65px;
+  display: block;
+  border-bottom: 1px solid rgb(0, 0, 0, .2);
+}
+
+
+.juliet-name-of-room {
+  width: 50%;
+  float: left;
+}
+
+.juliet-hover-message:hover {
+  background-color: rgb(0, 0, 0, .05);
+}
+
+.juliet-toggle-emoji {
+  background: none;
+  border-left: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.juliet-toggle-emoji:focus {
+  outline: none;
+}

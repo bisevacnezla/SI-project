@@ -1,0 +1,17 @@
+#karticaBody {
+  display: flex;
+  align-self: center;
+  width: 50%;
+  flex-direction: column;
+}
+#kartica {
+  display: flex;
+}
+#check {
+  margin-top: 3%;
+  text-align: left;
+}
+
+#omotacECHO {
+  padding: 15px;
+}

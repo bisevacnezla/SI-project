@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders table 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProfessorsAvailability />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="row search-teachers shadow-border"
+        >
+          <input
+            onChange={[Function]}
+            placeholder="Search.."
+            type="text"
+          />
+        </div>,
+        <div
+          className="row"
+        >
+          <table
+            className="table table-bordered table-hover professors-table shadow-border"
+          >
+            <thead>
+              <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Email
+                </th>
+                <th>
+                  Title
+                </th>
+                <th />
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>,
+        <Pagination
+          className=""
+          current={1}
+          defaultCurrent={1}
+          defaultPageSize={10}
+          hideOnSinglePage={false}
+          itemRender={[Function]}
+          locale={
+            Object {
+              "items_per_page": "/ page",
+              "jump_to": "Goto",
+              "jump_to_confirm": "confirm",
+              "next_3": "Next 3 Pages",
+              "next_5": "Next 5 Pages",
+              "next_page": "Next Page",
+              "page": "",
+              "prev_3": "Previous 3 Pages",
+              "prev_5": "Previous 5 Pages",
+              "prev_page": "Previous Page",
+            }
+          }
+          onChange={[Function]}
+          onShowSizeChange={[Function]}
+          pageSize={10}
+          prefixCls="rc-pagination"
+          selectComponentClass={null}
+          selectPrefixCls="rc-select"
+          showLessItems={false}
+          showPrevNextJumpers={true}
+          showQuickJumper={false}
+          showSizeChanger={false}
+          showTitle={true}
+          style={Object {}}
+          total={0}
+        />,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <input
+            onChange={[Function]}
+            placeholder="Search.."
+            type="text"
+          />,
+          "className": "row search-teachers shadow-border",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "placeholder": "Search..",
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table
+            className="table table-bordered table-hover professors-table shadow-border"
+          >
+            <thead>
+              <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Email
+                </th>
+                <th>
+                  Title
+                </th>
+                <th />
+              </tr>
+            </thead>
+            <tbody />
+          </table>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Title
+                  </th>
+                  <th />
+                </tr>
+              </thead>,
+              <tbody />,
+            ],
+            "className": "table table-bordered table-hover professors-table shadow-border",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Title
+                  </th>
+                  <th />
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      Name
+                    </th>,
+                    <th>
+                      Email
+                    </th>,
+                    <th>
+                      Title
+                    </th>,
+                    <th />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Name",
+                    },
+                    "ref": null,
+                    "rendered": "Name",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Email",
+                    },
+                    "ref": null,
+                    "rendered": "Email",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Title",
+                    },
+                    "ref": null,
+                    "rendered": "Title",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+              },
+              "ref": null,
+              "rendered": Array [],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "",
+          "current": 1,
+          "defaultCurrent": 1,
+          "defaultPageSize": 10,
+          "hideOnSinglePage": false,
+          "itemRender": [Function],
+          "locale": Object {
+            "items_per_page": "/ page",
+            "jump_to": "Goto",
+            "jump_to_confirm": "confirm",
+            "next_3": "Next 3 Pages",
+            "next_5": "Next 5 Pages",
+            "next_page": "Next Page",
+            "page": "",
+            "prev_3": "Previous 3 Pages",
+            "prev_5": "Previous 5 Pages",
+            "prev_page": "Previous Page",
+          },
+          "onChange": [Function],
+          "onShowSizeChange": [Function],
+          "pageSize": 10,
+          "prefixCls": "rc-pagination",
+          "selectComponentClass": null,
+          "selectPrefixCls": "rc-select",
+          "showLessItems": false,
+          "showPrevNextJumpers": true,
+          "showQuickJumper": false,
+          "showSizeChanger": false,
+          "showTitle": true,
+          "style": Object {},
+          "total": 0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row search-teachers shadow-border"
+          >
+            <input
+              onChange={[Function]}
+              placeholder="Search.."
+              type="text"
+            />
+          </div>,
+          <div
+            className="row"
+          >
+            <table
+              className="table table-bordered table-hover professors-table shadow-border"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Title
+                  </th>
+                  <th />
+                </tr>
+              </thead>
+              <tbody />
+            </table>
+          </div>,
+          <Pagination
+            className=""
+            current={1}
+            defaultCurrent={1}
+            defaultPageSize={10}
+            hideOnSinglePage={false}
+            itemRender={[Function]}
+            locale={
+              Object {
+                "items_per_page": "/ page",
+                "jump_to": "Goto",
+                "jump_to_confirm": "confirm",
+                "next_3": "Next 3 Pages",
+                "next_5": "Next 5 Pages",
+                "next_page": "Next Page",
+                "page": "",
+                "prev_3": "Previous 3 Pages",
+                "prev_5": "Previous 5 Pages",
+                "prev_page": "Previous Page",
+              }
+            }
+            onChange={[Function]}
+            onShowSizeChange={[Function]}
+            pageSize={10}
+            prefixCls="rc-pagination"
+            selectComponentClass={null}
+            selectPrefixCls="rc-select"
+            showLessItems={false}
+            showPrevNextJumpers={true}
+            showQuickJumper={false}
+            showSizeChanger={false}
+            showTitle={true}
+            style={Object {}}
+            total={0}
+          />,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              onChange={[Function]}
+              placeholder="Search.."
+              type="text"
+            />,
+            "className": "row search-teachers shadow-border",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Search..",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table
+              className="table table-bordered table-hover professors-table shadow-border"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Title
+                  </th>
+                  <th />
+                </tr>
+              </thead>
+              <tbody />
+            </table>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <thead>
+                  <tr>
+                    <th>
+                      Name
+                    </th>
+                    <th>
+                      Email
+                    </th>
+                    <th>
+                      Title
+                    </th>
+                    <th />
+                  </tr>
+                </thead>,
+                <tbody />,
+              ],
+              "className": "table table-bordered table-hover professors-table shadow-border",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <tr>
+                    <th>
+                      Name
+                    </th>
+                    <th>
+                      Email
+                    </th>
+                    <th>
+                      Title
+                    </th>
+                    <th />
+                  </tr>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <th>
+                        Name
+                      </th>,
+                      <th>
+                        Email
+                      </th>,
+                      <th>
+                        Title
+                      </th>,
+                      <th />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Name",
+                      },
+                      "ref": null,
+                      "rendered": "Name",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Email",
+                      },
+                      "ref": null,
+                      "rendered": "Email",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Title",
+                      },
+                      "ref": null,
+                      "rendered": "Title",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "th",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                "type": "thead",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [],
+                },
+                "ref": null,
+                "rendered": Array [],
+                "type": "tbody",
+              },
+            ],
+            "type": "table",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "",
+            "current": 1,
+            "defaultCurrent": 1,
+            "defaultPageSize": 10,
+            "hideOnSinglePage": false,
+            "itemRender": [Function],
+            "locale": Object {
+              "items_per_page": "/ page",
+              "jump_to": "Goto",
+              "jump_to_confirm": "confirm",
+              "next_3": "Next 3 Pages",
+              "next_5": "Next 5 Pages",
+              "next_page": "Next Page",
+              "page": "",
+              "prev_3": "Previous 3 Pages",
+              "prev_5": "Previous 5 Pages",
+              "prev_page": "Previous Page",
+            },
+            "onChange": [Function],
+            "onShowSizeChange": [Function],
+            "pageSize": 10,
+            "prefixCls": "rc-pagination",
+            "selectComponentClass": null,
+            "selectPrefixCls": "rc-select",
+            "showLessItems": false,
+            "showPrevNextJumpers": true,
+            "showQuickJumper": false,
+            "showSizeChanger": false,
+            "showTitle": true,
+            "style": Object {},
+            "total": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

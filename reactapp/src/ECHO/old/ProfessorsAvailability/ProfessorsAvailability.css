@@ -1,0 +1,56 @@
+.professors-table{
+    margin-top: 75px;
+}
+.professors-table>thead>tr>th:first-child{
+    width:calc(450%/12);
+}
+.professors-table>thead>tr>th:nth-child(2){
+    width:calc(450%/12);
+}
+.professors-table>thead>tr>th:nth-child(3){
+    width:calc(200%/12);
+}
+.professors-table>thead>tr>th:last-child{
+    width:calc(100%/12);
+}
+.professors-table>tbody>tr>td:last-child{
+    text-align: center;
+    color: #9b9b9b;
+ }
+.professors-table>tbody>tr>td>a{
+    color: #9b9b9b;
+}
+.shadow-border{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;
+}
+.search-teachers{
+    margin-top: 100px;
+}
+.search-teachers>input{
+    border: none;
+    height: 50px;
+    width:100%;
+    padding-left: 10px;
+}
+.pagination-table{
+    position: absolute;
+    top: 850px;
+    left: 50%;
+}
+
+.tabtip{
+    border: rgba(50, 50, 50, 0.52);
+    background-color:#151f31;
+    color: white;
+}
+.tabtipS{
+    background-color: #d5dbe9;
+    color:black;
+    border: rgba(50, 50, 50, 0.52);
+}
+.tabtip1{
+    background-color: white;
+    color:black;
+    border: rgba(50, 50, 50, 0.52);
+}

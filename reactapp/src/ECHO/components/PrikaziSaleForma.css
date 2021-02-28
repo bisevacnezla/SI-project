@@ -1,0 +1,25 @@
+#dugme1 {
+  width: fit-content;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+#mojaKarticaBody {
+  display: flex;
+  align-self: center;
+  width: 50%;
+  flex-direction: column;
+}
+
+#mojaKartica {
+  display: flex;
+}
+
+#omotacECHO {
+  padding: 15px;
+}
+
+#naslovSelectAjla {
+  align-self: flex-start;
+  width: 100%;
+}

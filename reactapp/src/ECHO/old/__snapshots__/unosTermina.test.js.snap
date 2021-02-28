@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Da li ima prikaz radnih dana za odabir u formi 1`] = `ShallowWrapper {}`;
+
+exports[`Da li se prikazuju komponente 1`] = `ShallowWrapper {}`;

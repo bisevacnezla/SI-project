@@ -1,0 +1,71 @@
+.AdminPromjenaTermina {
+    text-align: center;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+  }
+  #nazad {
+    border-radius: 8px;
+    background-color:  #282c34;
+    font-size: 8px;
+    color: white;
+    width : 12vw;
+    left : 15vw;
+    top : 75vh;
+    position: absolute;
+    border: 1px solid black; 
+  }
+    #pon, #uto{
+    background-color:  #282c34;
+    border-radius: 1px;
+    margin-left: 40vw;
+    margin-top: 10vh;
+    width : 20vw;
+    min-height: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    color: white;
+    border : 1px solid, black;
+  }
+  #sviprofesori, #terminijednogprofesora{
+    width : 15vw;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border : 1px solid, black;
+  }
+  #sviprofesori{
+    left: 43vw;
+    top: 34vh; 
+    position : absolute;
+  }
+  #terminijednogprofesora{
+    left: 43vw;
+    top: 50vh; 
+    position : absolute;
+  }
+  .App-edit {
+    border: 1px solid black; 
+    background-color: darkred;
+    border-radius: 2px;
+    min-height: 2vh;
+    left: 39vw;
+    width: 10vw;
+    flex-direction: column;
+    align-items: center;
+    top: 55vh;
+    position : absolute;
+    justify-content: center;
+    font-size: 7px;
+    color: white;
+  }

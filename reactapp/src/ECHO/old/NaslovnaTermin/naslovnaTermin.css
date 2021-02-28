@@ -1,0 +1,12 @@
+#prva,
+#druga {
+  margin: 20px;
+}
+#prva {
+  width: 30%;
+  float: left;
+}
+#druga {
+  width: 60%;
+  float: right;
+}

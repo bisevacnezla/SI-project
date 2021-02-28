@@ -1,0 +1,15 @@
+#tekstPitanjaTextArea {
+    resize: none
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    
+}
+
+#radioQuestion {
+    height: 30px;
+    width: 30px;
+}

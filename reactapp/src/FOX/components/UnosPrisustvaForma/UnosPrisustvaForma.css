@@ -1,0 +1,26 @@
+/* option[value="da"] {
+    color: white;
+    background: #28a745 ;
+}
+
+option[value="ne"] {
+    color: white;
+    background: #dc3545;
+}
+
+option[value="-"] {
+    color: black;
+    background: white;
+}
+
+option[value="izaberiOpciju"] {
+    color: black;
+    background: white;
+}
+ */
+
+ option {
+     background: white;
+     color: black;
+ }
+

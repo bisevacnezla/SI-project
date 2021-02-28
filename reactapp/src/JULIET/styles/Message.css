@@ -1,0 +1,54 @@
+.juliet-message-list {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 0 0 0 6px;
+  margin: 0 0 0 10px;
+  width: calc(100% - 10px);
+  overflow: scroll;
+  list-style-type: none;
+  max-height: 100%;
+}
+
+.juliet-avatar {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.juliet-avatar-container {
+  width: 80px;
+  float: left;
+}
+
+.juliet-message-container {
+  height: 100%;
+  width: calc(100% - 80px);
+  margin-left: 80px;
+  /* float: right; */
+}
+
+.juliet-message-sender {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0;
+  color: black;
+}
+
+.juliet-message-text  {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: black;
+  word-wrap: break-word;
+  line-height: initial;
+}
+
+.juliet-message {
+  border: none;
+  display: block;
+}
+
+.juliet-message-time {
+
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 5px;
+}

@@ -1,0 +1,312 @@
+.App {
+  text-align: center;
+   background-color: #fff;
+   margin:0;
+   padding: 0;
+  }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#overlay {
+  position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+	
+	}
+
+.styles_modal__gNwvD{
+	width: 70%;
+	height: 60%;
+	max-width: 100%;
+	background-color: #B0C4DE;
+}
+
+#BETA_divIDVrijeme{
+  background-color: #2C3E50 !important;
+  color:white !important;
+}
+#mainBeta {
+  width: 100%;
+  display: inline-block;
+}
+
+#leftBeta {
+  width: 20%;
+  background-color: #2C3E50;
+  float: left;
+  min-height: calc(100vh - 80px);
+  
+}
+
+#formica {
+  margin-top: 12px;
+  margin-left: 16px;
+  margin-right: 16 px;
+  margin-bottom: 1rem;
+}
+
+#rightBeta {
+  float: right;
+  background-color: white;
+  min-height: calc(100vh - 80px);
+  width: 80%;
+}
+
+.row{
+  width: 100% !important;
+  
+}
+
+#head{
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+}
+
+#createNewIssue {
+  width: 20%;
+  height: 50px;
+  float: left;
+  
+}
+
+#search-issue-tab-Beta{
+  width:100%;
+  height: 50px;
+  background-color: #2C3E50;
+}
+
+#search-issue-text{
+  
+  margin: 20px;
+  margin-right : 0px;
+  font-size: 12pt;
+  float: left;
+  color: white;
+}
+
+#search-issue-filter{
+  width: 20%;
+  display:inline-block;
+  margin: 6px;
+  margin-left: -700px;
+}
+
+.left-buttons{
+  width: 100% !important;
+  height: 60px;
+  border: none !important;
+  text-align: left !important;
+  padding-left: 40px !important;
+}
+
+#tabs{
+  width: 100;
+}
+
+.tab-issue {
+  overflow-y: scroll;
+  max-height: 520px;
+  padding-top: 20px;
+}
+
+
+#naslov{
+  float:left;
+  width: 100px !important;
+  padding-left: 10px;
+  width: 70px !important;
+}
+
+#naslovSelect{
+  float: left !important;
+  width: 60% !important;
+  margin-top: 10px;
+}
+
+#formNoviIssue{
+  height: 100%;
+  max-width: 100%;
+}
+
+#buttonSend{
+  margin-left: 10px;
+}
+
+#buttonObjavi{
+  margin-left: 10px;
+  float: 'left';
+   margin: 0 ;
+}
+.faq-issue{
+  overflow-y: scroll;
+  max-height: 470px;
+  padding-top: 20px;
+}
+#buttonDraft{
+  margin-left: 10px;
+}
+
+#closeIssueForm{
+  float:right !important;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#exampleTextarea{
+  margin-top: 10px;
+}
+
+#addNewCategoryForm{
+  display: block;
+  width: 50% !important;
+  height: 300px !important;
+  margin: auto;
+}
+
+#addNewCatModalBody{
+  display: inline-block !important;
+}
+
+#naziv{
+  margin-left: 10px;
+}
+
+#addNewCategoryModal{
+  width: 50% !important;
+  margin: auto;
+}
+
+#addCategoryButton{
+  margin-top: 10px;
+}
+
+#addNewTitleDiv{
+  margin:auto;
+}
+
+.tab-button-container {
+    width: 100%;
+    text-align: right;
+}
+
+.issue-title {
+    cursor: pointer;
+    /* min-height: 50px; */
+    line-height: 50px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.issue-message {
+    width: 100%;
+    text-align: right;
+}
+
+.message-button {
+    margin: 2px;
+}
+
+.issue-card {
+    margin-left: 30px;
+}
+
+.issue-body{
+  display: block;
+  /* border: 2px black solid; */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.issueID{
+  float: left;
+}
+
+.issueButtonDelete{
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #exampleInputFile{
+    width: 100%;
+  }
+
+  .class1{
+    width: 100% !important;
+    float: left;
+  }
+  
+  #naslov{
+    float:left;
+    width: 100px !important;
+    padding-left: 10px;
+    width: 70px !important;
+  }
+
+  #naslovSelect{
+    
+    margin-top: 10px;
+  }
+
+  #naslovDiv{
+    display: inline-block !important;
+    
+  }
+
+  #noviIssue{
+    height: 450px;
+    
+  }
+
+  #formNoviIssue{
+    height: 100%;
+  }
+  #buttonZatvori{
+    margin-left: 85px ;
+    width: 50 px;
+    
+  }
+ 
+
+  
+  
+  
+}

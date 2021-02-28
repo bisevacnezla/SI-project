@@ -1,0 +1,99 @@
+.Juliet-App div {
+    list-style-type: none;
+    text-align: left;
+}
+
+.juliet-user {
+    cursor: pointer;
+    padding: 0 3px 0px 3px;
+    font-size: 16px;
+    height: 25px;
+}
+
+.juliet-user:hover {
+    background-color: rgb(20, 32, 44);
+}
+
+.juliet-user > * {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.juliet-user-online{
+    
+    margin-left: -6px;
+    width: 7%;
+}
+.juliet-remove {
+    display: none;
+    float: right;
+    width: 7%;
+}
+
+.juliet-user:hover .juliet-remove {
+    display: inline;
+}
+
+.juliet-name-of-room h4{
+    text-align: left;
+    padding: 1rem;
+}
+
+.material-icons.md-12 {
+    font-size: 12px;
+}
+
+.material-icons-outlined.md-12 {
+    font-size: 12px;
+}
+
+.material-icons-outlined.md-14 {
+    font-size: 14px;
+}
+
+.material-icons.md-online { color: #2BAC76; }
+
+.juliet-presence-state {
+    padding-right: 4px;
+    width: 10%;
+}
+
+.juliet-user-search-input {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    height: 30px;
+    padding: 0px 6px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(0, 0, 0, 0.4);
+}
+
+.juliet-username-name {
+    width: 76%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.juliet-section-header {
+    width: 93%;
+    padding-top: 6px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.juliet-section-icon {
+    padding-top: 6px;
+    width: 7%;
+}
+
+
+.julietsection-h {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    padding: 0 3px 0 3px;
+}
+
+.juliet-section-h:hover .juliet-section-icon {
+    display: inline-block;
+}

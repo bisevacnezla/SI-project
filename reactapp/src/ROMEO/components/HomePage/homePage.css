@@ -1,0 +1,38 @@
+
+.main{
+    font-family: "Times New Roman", Times, serif;
+   width: 100%;
+    color:white;
+    font-style: italic;
+    font-size: 50%;
+   background-color:#00203f;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+.menu{
+    width: 100%;
+    padding-bottom: 40%;
+    padding-top: 2%;
+    background-color: lightgrey;
+}
+.footer {
+    left: 0;
+    width: 100%;
+    background-color: #00203f;
+    color: rgb(173, 239, 209);;
+    text-align: center;
+   margin: 0 auto;
+}
+
+.menu input[type="button"]{
+    margin-top: 0;
+    margin-left: 81%;
+    padding: 10px 24px;
+    background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 12px;
+}
+.menu input[type="button"]:hover{
+    background-color: #e7e7e7;
+}
